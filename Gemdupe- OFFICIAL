@@ -1,0 +1,29 @@
+--Made By Xyzo Scripts
+
+--Used Visual coding
+
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+
+local Window = Library.CreateLib("🔆🔆| Gemdupe | Xyzo Hub | UPDATED | 1/14/2023 | 🔆🔆", "BloodTheme")
+
+local Gemdupes = Window:NewTab("Gemdupe")
+
+local GemdupesSection = Gemdupes:NewSection("Gemdupe")
+
+GemdupesSection:NewButton("GemDupe start", "When Clicked Loading screen will apear wait till done", function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/NzxEMnf3"))();
+
+end)
+
+GemdupesSection:NewLabel("(BEWARE READ (DUPEGEMS INFO) FIRST READ IT!)")
+
+
+local Infos = Window:NewTab("Dupegems INFO")
+
+local InfosSection = Infos:NewSection("Information: ")
+
+InfosSection:NewLabel("When Dupegems Start is clicked A Loading screen")
+InfosSection:NewLabel("Will apear wait till loading is done and use it")
+
+
+
